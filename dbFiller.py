@@ -51,4 +51,3 @@ def lambda_handler(event, context):
     for index in range(10000, 10010):
         print(get_webpage_data(index))
     # return event['key1']  # Echo back the first key value
-    #raise Exception('Something went wrong')
