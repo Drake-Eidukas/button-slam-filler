@@ -14,7 +14,7 @@ def get_webpage_data(question_id):
         }
     )
     
-    soup = BeautifulSoup(request.text, 'html.parser')
+    soup = bs(request.text, 'html.parser')
     
     main_container = soup.find(id='maincontainer')
     

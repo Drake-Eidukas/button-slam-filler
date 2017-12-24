@@ -36,3 +36,6 @@ coverage.xml
 
 # Scratch Pad for experiments
 .scratch/
+
+# Zip files
+*.zip
